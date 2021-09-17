@@ -19,8 +19,8 @@ interface NaverAPI {
 
     companion object {
         private const val BASE_URL_NAVER_API = "https://openapi.naver.com"
-        private const val CLIENT_ID = "아이디"
-        private const val CLIENT_SECRET = "비밀번호"
+        private const val CLIENT_ID = "KPFtLtMd1aMnsMoweK6n"
+        private const val CLIENT_SECRET = "X5HdAYeAb6"
 
         fun create(): NaverAPI {
             val httpLoggingInterceptor = HttpLoggingInterceptor()
