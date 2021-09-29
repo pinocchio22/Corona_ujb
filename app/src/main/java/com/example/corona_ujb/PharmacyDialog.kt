@@ -8,7 +8,7 @@ import android.view.View
 import androidx.core.net.toUri
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Observer
-import com.jhlee.coronabusan.DialogViewModel
+import com.example.corona_ujb.DialogViewModel
 import kotlinx.android.synthetic.main.list_dialog.view.*
 
 class PharmacyDialog(v: View, vm: DialogViewModel): DialogFragment() {
