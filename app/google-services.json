@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "65421206789",
+    "project_id": "corona-ujb",
+    "storage_bucket": "corona-ujb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65421206789:android:5dcc560d8d9c8f8758436c",
+        "android_client_info": {
+          "package_name": "com.example.corona_ujb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65421206789-k3ug41km3sver3vf528ojtveoufc3l73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR5Z0LYj0TkY3TrUBdL67Rp1HnonS76xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65421206789-k3ug41km3sver3vf528ojtveoufc3l73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
