@@ -4,8 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <variable name="CoronaViewModel"
-            type="com.example.corona_ujb.CoronaViewModel" />
+        <variable name="SearchViewModel"
+            type="com.example.corona_ujb.SearchViewModel" />
 
         <variable
             name="pos"

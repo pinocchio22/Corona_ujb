@@ -1,7 +1,9 @@
 package com.example.corona_ujb
 
+import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.corona_ujb.databinding.NewsItemviewBinding
 
 /**
  * @author CHOI
@@ -12,14 +14,14 @@ import androidx.recyclerview.widget.RecyclerView
 class NewsAdapter(viewModel: SearchViewModel) : RecyclerView.Adapter<NewsAdapter.ViewHolder>() {
     private val viewModel = viewModel
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NewsAdapter.ViewHolder {
-        val binding: NewsItemviewBinding = NewsItemviewBinding.inflate()
+    override fun onCreateViewHolder(parent: ViewGroup, p1: Int): ViewHolder {
+        val binding: NewsItemviewBinding = NewsItemviewBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
     }
 
     override fun getItemCount(): Int = viewModel.getNewsItem().size
 
-    override fun onBindViewHolder(holder: NewsAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(viewModel, position)
     }
 
@@ -28,7 +30,7 @@ class NewsAdapter(viewModel: SearchViewModel) : RecyclerView.Adapter<NewsAdapter
 
         fun bind(viewModel: SearchViewModel, pos: Int) {
             binding.pos = pos
-            binding.SearchViewModel = viewModel
+            binding.searchViewModel = viewModel
             binding.executePendingBindings()
         }
     }
