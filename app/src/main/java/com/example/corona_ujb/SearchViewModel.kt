@@ -1,21 +1,15 @@
 package com.example.corona_ujb
 
 import android.annotation.SuppressLint
-import android.app.Application
 import android.net.Uri
-import android.os.Looper
 import android.text.Html
 import android.text.Spanned
 import android.util.Log
 import androidx.core.net.toUri
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import java.text.SimpleDateFormat
 import java.util.*
-import java.util.logging.Handler
 import kotlin.collections.ArrayList
 
 /**
@@ -24,6 +18,7 @@ import kotlin.collections.ArrayList
  * @created 2021-09-17
  * @desc
  */
+
 @Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 class SearchViewModel(): ViewModel(){
     var newsItem: ArrayList<NewsItems> = arrayListOf()
@@ -107,5 +102,3 @@ class SearchViewModel(): ViewModel(){
         return strDate
     }
 }
-
-

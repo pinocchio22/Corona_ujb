@@ -25,6 +25,7 @@ import com.example.corona_ujb.databinding.FragmentSearchBinding
  * @created 2021-09-17
  * @desc
  */
+
 class FragmentSearch : Fragment() {
 
     private lateinit var vm: SearchViewModel

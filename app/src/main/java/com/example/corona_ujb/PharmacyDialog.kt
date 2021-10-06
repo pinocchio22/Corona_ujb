@@ -11,6 +11,13 @@ import androidx.lifecycle.Observer
 import com.example.corona_ujb.DialogViewModel
 import kotlinx.android.synthetic.main.list_dialog.view.*
 
+/**
+ * @author CHOI
+ * @email vviian.2@gmail.com
+ * @created 2021-09-17
+ * @desc
+ */
+
 class PharmacyDialog(v: View, vm: DialogViewModel): DialogFragment() {
     private val v = v
     private val vm= vm

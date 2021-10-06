@@ -11,6 +11,7 @@ import java.util.ArrayList
  * @created 2021-09-17
  * @desc
  */
+
 class VPAdapter(fm: FragmentManager?) :
     FragmentPagerAdapter(fm!!) {
     private val items: ArrayList<Fragment> = ArrayList()

@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.pharmacy_itemview.view.*
  * @created 2021-09-17
  * @desc
  */
+
 class PharmacyAdapter(vm: DialogViewModel) : RecyclerView.Adapter<PharmacyAdapter.ViewHolder>() {
     var items = ArrayList<PharmacyItems>()
     val vm = vm

@@ -10,6 +10,13 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import kotlinx.android.synthetic.main.fragment_treat.view.*
 
+/**
+ * @author CHOI
+ * @email vviian.2@gmail.com
+ * @created 2021-09-17
+ * @desc
+ */
+
 class FragmentTreat : Fragment() {
     private lateinit var vm: DialogViewModel
 

@@ -6,6 +6,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.board_itemview.view.*
 
+/**
+ * @author CHOI
+ * @email vviian.2@gmail.com
+ * @created 2021-09-17
+ * @desc
+ */
+
 class BoardAdapter(vm: BoardViewModel) : RecyclerView.Adapter<BoardAdapter.ViewHolder>() {
     var items = ArrayList<CoronaPeople>()
     val vm = vm

@@ -11,6 +11,7 @@ import com.example.corona_ujb.databinding.NewsItemviewBinding
  * @created 2021-09-17
  * @desc
  */
+
 class NewsAdapter(viewModel: SearchViewModel) : RecyclerView.Adapter<NewsAdapter.ViewHolder>() {
     private val viewModel = viewModel
 

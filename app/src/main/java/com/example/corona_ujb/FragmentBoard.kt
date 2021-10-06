@@ -16,6 +16,12 @@ import com.google.firebase.messaging.FirebaseMessaging
 import com.example.corona_ujb.databinding.FragmentBoardBinding
 import kotlin.concurrent.timer
 
+/**
+ * @author CHOI
+ * @email vviian.2@gmail.com
+ * @created 2021-09-17
+ * @desc
+ */
 
 class FragmentBoard : Fragment() {
 
@@ -31,8 +37,7 @@ class FragmentBoard : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding: FragmentBoardBinding =
-            DataBindingUtil.inflate(inflater, R.layout.fragment_board, container, false)
+        val binding: FragmentBoardBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_board, container, false)
         val uri = "http://www.busan.go.kr/corona19/index#travelhist".toUri()
         vm = ViewModelProvider(this).get(BoardViewModel::class.java)
         clickListener(binding)

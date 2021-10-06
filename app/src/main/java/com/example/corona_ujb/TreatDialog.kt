@@ -8,6 +8,12 @@ import android.view.View
 import androidx.fragment.app.DialogFragment
 import kotlinx.android.synthetic.main.treat_dialog.view.*
 
+/**
+ * @author CHOI
+ * @email vviian.2@gmail.com
+ * @created 2021-09-17
+ * @desc
+ */
 
 class TreatDialog(v: View, img: Int): DialogFragment() {
     private val v = v

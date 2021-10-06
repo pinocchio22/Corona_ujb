@@ -7,6 +7,13 @@ import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Observer
 import kotlinx.android.synthetic.main.listboard_dialog.view.*
 
+/**
+ * @author CHOI
+ * @email vviian.2@gmail.com
+ * @created 2021-09-17
+ * @desc
+ */
+
 class BoardDialog(v: View, vm: BoardViewModel): DialogFragment() {
     private val v = v
     private val vm = vm
@@ -25,7 +32,7 @@ class BoardDialog(v: View, vm: BoardViewModel): DialogFragment() {
         if(vm.checkGetPeople == 0 && !vm.peopleList.value.isNullOrEmpty())
             vm.checkGetPeople = 1
         else
-            vm.getBusanNum()
+            vm.getUjbNum()
         vm.init(v.board_RecycleView, vm.getAdapter())
         vm.peopleList.observe(this, Observer { list ->
             vm.getAdapter().addItem(list!!)

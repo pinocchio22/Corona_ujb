@@ -5,6 +5,13 @@ import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
 
+/**
+ * @author CHOI
+ * @email vviian.2@gmail.com
+ * @created 2021-09-17
+ * @desc
+ */
+
 class SharePreferences : Application() {
     companion object {
         lateinit var prefs: PreferenceUtil

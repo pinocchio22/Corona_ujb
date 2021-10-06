@@ -16,6 +16,7 @@ import retrofit2.http.Query
  * @created 2021-09-17
  * @desc
  */
+
 interface MaskAPI {
     @GET("storesByGeo/json")
     fun getMaskLatlng(

@@ -13,7 +13,15 @@ import android.util.Log
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.google.firebase.messaging.FirebaseMessaging
 import kotlinx.android.synthetic.main.activity_main.*
+
+/**
+ * @author CHOI
+ * @email vviian.2@gmail.com
+ * @created 2021-09-17
+ * @desc
+ */
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,12 +37,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         val vpAdapter: VPAdapter =
             VPAdapter(supportFragmentManager)
         viewpager.adapter = vpAdapter
         tab.setupWithViewPager(viewpager)
     }
+
+//    private fun initFirebase(){
+//        FirebaseMessaging.getInstance().token.addOnCompleteListener { task ->
+//            if (task.isSuccessful) {
+//
+//                firebaseToken.text = task.result
+//            }
+//        }
+//    }
 
     override fun onBackPressed() {
         val tempTime = System.currentTimeMillis()

@@ -10,6 +10,13 @@ import androidx.recyclerview.widget.RecyclerView
 import java.text.SimpleDateFormat
 import java.util.*
 
+/**
+ * @author CHOI
+ * @email vviian.2@gmail.com
+ * @created 2021-09-17
+ * @desc
+ */
+
 class BoardViewModel(): ViewModel(){
     private val repo : CoronaRepository =
         CoronaRepository()

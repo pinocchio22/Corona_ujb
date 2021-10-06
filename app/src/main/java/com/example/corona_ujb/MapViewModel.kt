@@ -8,6 +8,13 @@ import androidx.lifecycle.ViewModel
 
 import java.util.*
 
+/**
+ * @author CHOI
+ * @email vviian.2@gmail.com
+ * @created 2021-09-17
+ * @desc
+ */
+
 class MapViewModel(): ViewModel() {
 
     private val repo: CoronaRepository =
