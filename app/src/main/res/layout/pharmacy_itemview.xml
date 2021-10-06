@@ -42,7 +42,7 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/pharmacy_name"
-                    android:text="수영구 보건소"
+                    android:text="용현동 보건소"
                     android:layout_gravity="center"
                     android:layout_marginHorizontal="8dp"
                     android:textSize="25dp"

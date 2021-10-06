@@ -28,8 +28,6 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
-import com.jhlee.coronabusan.MapViewModel
-import com.jhlee.coronabusan.R
 import kotlinx.android.synthetic.main.fragment_map.view.*
 
 class FragmentMap : Fragment(), OnMapReadyCallback {

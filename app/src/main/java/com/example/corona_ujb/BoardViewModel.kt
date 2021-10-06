@@ -17,7 +17,7 @@ class BoardViewModel(): ViewModel(){
     val sdfFormat: SimpleDateFormat = SimpleDateFormat("MM월 dd일 (E) HH:mm:ss")
     var nowTimer: MutableLiveData<String> = MutableLiveData<String>("")
 
-    var busanList: MutableLiveData<ArrayList<String>> = MutableLiveData<ArrayList<String>>()
+    var ujbList: MutableLiveData<ArrayList<String>> = MutableLiveData<ArrayList<String>>()
     var koreaList: MutableLiveData<ArrayList<String>> = MutableLiveData<ArrayList<String>>()
     var worldList: MutableLiveData<ArrayList<String>> = MutableLiveData<ArrayList<String>>()
     var peopleList: MutableLiveData<ArrayList<CoronaPeople>> = MutableLiveData<ArrayList<CoronaPeople>>()
@@ -29,16 +29,16 @@ class BoardViewModel(): ViewModel(){
 
     init {
         getBoard()
-        getBusanNum()
+        getUjbNum()
     }
     @SuppressLint("CheckResult")
     fun getBoard() {
         val temp = arrayListOf<String>("","","","","")
-        busanList.value = temp
+        ujbList.value = temp
         koreaList.value = temp
         worldList.value = temp
 
-        busanList = repo.getBusan()
+        ujbList = repo.getUjb()
         koreaList = repo.getKorea()
         worldList = repo.getWorld()
     }
@@ -49,8 +49,8 @@ class BoardViewModel(): ViewModel(){
     }
 
     @SuppressLint("CheckResult")
-    fun getBusanNum() {
-        peopleList = repo.getBusanNum()
+    fun getUjbNum() {
+        peopleList = repo.getUjbNum()
     }
 
     fun init(recyclerView: RecyclerView, adapter: BoardAdapter) {

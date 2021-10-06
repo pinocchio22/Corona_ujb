@@ -76,7 +76,7 @@ class FragmentBoard : Fragment() {
     }
 
     fun alertDialog() {
-        Toast.makeText(context, "부산시 코로나 확진자 발표 알림 수신 여부를 선택하세요", Toast.LENGTH_SHORT).show()
+        Toast.makeText(context, "의정부시 코로나 확진자 발표 알림 수신 여부를 선택하세요", Toast.LENGTH_SHORT).show()
         val selectitem = arrayOf<String>("알림 수신 허용", "알림 수신 거부")
         var select = SharePreferences.prefs.getAlert("alert", 0)
         val dlg: AlertDialog.Builder = AlertDialog.Builder(context)

@@ -162,7 +162,7 @@
                     android:layout_marginHorizontal="8dp"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="@{BoardViewModel.busanList.get(0)}"/>
+                    android:text="@{BoardViewModel.ujbList.get(0)}"/>
 
                 <TextView
                     android:gravity="center"
@@ -171,7 +171,7 @@
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="@{BoardViewModel.busanList.get(2)}"/>
+                    android:text="@{BoardViewModel.ujbList.get(2)}"/>
 
                 <TextView
                     android:gravity="center"
@@ -180,7 +180,7 @@
                     android:layout_marginHorizontal="8dp"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="@{BoardViewModel.busanList.get(3)}"/>
+                    android:text="@{BoardViewModel.ujbList.get(3)}"/>
 
                 <TextView
                     android:gravity="center"
@@ -189,7 +189,7 @@
                     android:layout_marginHorizontal="8dp"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="@{BoardViewModel.busanList.get(4)}"/>
+                    android:text="@{BoardViewModel.ujbList.get(4)}"/>
 
 
 
@@ -499,7 +499,7 @@
                 android:layout_marginHorizontal="3dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="부산시 확진자 목록 보기"/>
+                android:text="의정부시 확진자 목록 보기"/>
 
         </androidx.cardview.widget.CardView>
 

@@ -25,19 +25,19 @@ class FragmentTreat : Fragment() {
             openCall("tel:1339")
         }
         view.card_view7.setOnClickListener {
-            openCall("tel:051-120")
+            openCall("tel:031-120")
         }
         view.card_view1.setOnClickListener {
-            openDlg(R.drawable.coronabusan1)
+            openDlg(R.drawable.coronaujb1)
         }
         view.card_view2.setOnClickListener {
-            openDlg(R.drawable.coronabusan2)
+            openDlg(R.drawable.coronaujb2)
         }
         view.card_view3.setOnClickListener {
-            openDlg(R.drawable.coronabusan3)
+            openDlg(R.drawable.coronaujb3)
         }
         view.card_view4.setOnClickListener {
-            openDlg(R.drawable.coronabusan4)
+            openDlg(R.drawable.coronaujb4)
         }
         view.card_view5.setOnClickListener {
             val pharmacyDlg: View = layoutInflater.inflate(R.layout.list_dialog, null)

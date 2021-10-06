@@ -58,7 +58,7 @@ class CoronaRepository() {
         .subscribeOn(Schedulers.io())
         .observeOn(AndroidSchedulers.mainThread())
 
-    fun getBusan(): MutableLiveData<ArrayList<String>> {
+    fun getUjb(): MutableLiveData<ArrayList<String>> {
         var list = MutableLiveData<ArrayList<String>>()
         JsoupAsyncTask(ujbURL, list, 0).execute()
         return list
@@ -76,7 +76,7 @@ class CoronaRepository() {
         return list
     }
 
-    fun getBusanNum(): MutableLiveData<ArrayList<CoronaPeople>> {
+    fun getUjbNum(): MutableLiveData<ArrayList<CoronaPeople>> {
         var list = MutableLiveData<ArrayList<CoronaPeople>>()
         //list.value.add()
         JsoupAsyncTask2(ujbURL, list).execute()
