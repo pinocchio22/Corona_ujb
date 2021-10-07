@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.corona_ujb.BoardViewModel
-import com.example.corona_ujb.CoronaPeople
+import com.example.corona_ujb.Model.CoronaPeople
 import com.example.corona_ujb.R
 import kotlinx.android.synthetic.main.board_itemview.view.*
 
