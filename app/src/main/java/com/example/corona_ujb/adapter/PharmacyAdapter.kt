@@ -1,9 +1,12 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.corona_ujb.DialogViewModel
+import com.example.corona_ujb.PharmacyItems
+import com.example.corona_ujb.R
 import kotlinx.android.synthetic.main.pharmacy_itemview.view.*
 
 /**

@@ -1,4 +1,4 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.fragment
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -23,6 +23,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
+import com.example.corona_ujb.MapViewModel
+import com.example.corona_ujb.R
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng

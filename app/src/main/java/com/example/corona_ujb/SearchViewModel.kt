@@ -8,6 +8,7 @@ import android.util.Log
 import androidx.core.net.toUri
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.corona_ujb.adapter.NewsAdapter
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
@@ -72,7 +73,7 @@ class SearchViewModel(): ViewModel(){
 
             , { throwable -> Log.d("Error!"," ") })
     }
-    fun getAdapter(): NewsAdapter{
+    fun getAdapter(): NewsAdapter {
         return newsAdapter
     }
 

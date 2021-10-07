@@ -1,4 +1,4 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.fragment
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -12,6 +12,10 @@ import android.widget.Toast
 import androidx.core.net.toUri
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
+import com.example.corona_ujb.BoardViewModel
+import com.example.corona_ujb.CustomDialog.BoardDialog
+import com.example.corona_ujb.R
+import com.example.corona_ujb.SharePreferences
 import com.google.firebase.messaging.FirebaseMessaging
 import com.example.corona_ujb.databinding.FragmentBoardBinding
 import kotlin.concurrent.timer

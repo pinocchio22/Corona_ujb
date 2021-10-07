@@ -1,8 +1,12 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
+import com.example.corona_ujb.fragment.FragmentBoard
+import com.example.corona_ujb.fragment.FragmentMap
+import com.example.corona_ujb.fragment.FragmentSearch
+import com.example.corona_ujb.fragment.FragmentTreat
 import java.util.ArrayList
 
 /**

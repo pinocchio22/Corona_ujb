@@ -92,7 +92,7 @@
             android:layout_height="match_parent"
             android:background="#F0F0F0"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            tools:context=".FragmentSearch">
+            tools:context=".fragment.FragmentSearch">
 
 
             <!-- TODO: Update blank fragment layout -->

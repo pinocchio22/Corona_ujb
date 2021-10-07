@@ -1,7 +1,9 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.Model
 
 import android.os.AsyncTask
 import androidx.lifecycle.MutableLiveData
+import com.example.corona_ujb.api.MaskAPI
+import com.example.corona_ujb.api.NaverAPI
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers

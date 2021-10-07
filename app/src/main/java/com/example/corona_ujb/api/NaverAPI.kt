@@ -1,5 +1,6 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.api
 
+import com.example.corona_ujb.ResultGetSearchNews
 import io.reactivex.Observable
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

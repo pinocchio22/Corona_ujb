@@ -1,11 +1,12 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.CustomDialog
+
 
 import android.app.Dialog
 import android.os.Bundle
+
 import android.view.View
 import androidx.fragment.app.DialogFragment
-import androidx.lifecycle.Observer
-import kotlinx.android.synthetic.main.listboard_dialog.view.*
+import kotlinx.android.synthetic.main.treat_dialog.view.*
 
 /**
  * @author CHOI
@@ -14,9 +15,9 @@ import kotlinx.android.synthetic.main.listboard_dialog.view.*
  * @desc
  */
 
-class BoardDialog(v: View, vm: BoardViewModel): DialogFragment() {
+class TreatDialog(v: View, img: Int): DialogFragment() {
     private val v = v
-    private val vm = vm
+    private val img = img
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val maindlgBuilder: androidx.appcompat.app.AlertDialog.Builder =
@@ -25,20 +26,13 @@ class BoardDialog(v: View, vm: BoardViewModel): DialogFragment() {
             )
         maindlgBuilder.setView(v)
         val dlg = maindlgBuilder.create()
-        v.board_people_ok.setOnClickListener {
+        v.treat_ok.setOnClickListener {
             dlg.cancel()
         }
-
-        if(vm.checkGetPeople == 0 && !vm.peopleList.value.isNullOrEmpty())
-            vm.checkGetPeople = 1
-        else
-            vm.getUjbNum()
-        vm.init(v.board_RecycleView, vm.getAdapter())
-        vm.peopleList.observe(this, Observer { list ->
-            vm.getAdapter().addItem(list!!)
-        })
+        v.treat_img.setImageResource(img)
 
         return dlg
     }
 
 }
+

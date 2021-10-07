@@ -1,4 +1,4 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.adapter
 
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.LinearLayoutManager

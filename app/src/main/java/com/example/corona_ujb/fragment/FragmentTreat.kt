@@ -1,4 +1,4 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.fragment
 
 import android.content.Intent
 import android.net.Uri
@@ -8,6 +8,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
+import com.example.corona_ujb.CustomDialog.PharmacyDialog
+import com.example.corona_ujb.CustomDialog.TreatDialog
+import com.example.corona_ujb.DialogViewModel
+import com.example.corona_ujb.R
 import kotlinx.android.synthetic.main.fragment_treat.view.*
 
 /**

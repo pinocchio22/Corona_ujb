@@ -1,7 +1,6 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.fragment
 
 import android.content.Intent
-import android.content.Intent.getIntent
 import android.graphics.Typeface
 import android.os.Bundle
 import android.os.SystemClock
@@ -17,6 +16,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.corona_ujb.R
+import com.example.corona_ujb.SearchViewModel
 import com.example.corona_ujb.databinding.FragmentSearchBinding
 
 /**

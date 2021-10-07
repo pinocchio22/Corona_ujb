@@ -1,8 +1,9 @@
-package com.example.corona_ujb
+package com.example.corona_ujb.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.corona_ujb.SearchViewModel
 import com.example.corona_ujb.databinding.NewsItemviewBinding
 
 /**
