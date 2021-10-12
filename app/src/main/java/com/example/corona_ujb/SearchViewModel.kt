@@ -8,6 +8,8 @@ import android.util.Log
 import androidx.core.net.toUri
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.corona_ujb.model.CoronaRepository
+import com.example.corona_ujb.model.NewsItems
 import com.example.corona_ujb.adapter.NewsAdapter
 import java.text.SimpleDateFormat
 import java.util.*

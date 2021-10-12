@@ -13,7 +13,7 @@ import androidx.core.net.toUri
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.example.corona_ujb.BoardViewModel
-import com.example.corona_ujb.CustomDialog.BoardDialog
+import com.example.corona_ujb.customDialog.BoardDialog
 import com.example.corona_ujb.R
 import com.example.corona_ujb.SharePreferences
 import com.google.firebase.messaging.FirebaseMessaging

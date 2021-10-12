@@ -1,4 +1,4 @@
-package com.example.corona_ujb.Model
+package com.example.corona_ujb.model
 
 /**
  * @author CHOI

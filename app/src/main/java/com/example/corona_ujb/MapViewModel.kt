@@ -4,6 +4,8 @@ import android.annotation.SuppressLint
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.corona_ujb.model.CoronaRepository
+import com.example.corona_ujb.model.MaskLatlon
 
 
 import java.util.*

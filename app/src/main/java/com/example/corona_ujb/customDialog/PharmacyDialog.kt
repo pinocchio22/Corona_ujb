@@ -1,4 +1,4 @@
-package com.example.corona_ujb.CustomDialog
+package com.example.corona_ujb.customDialog
 
 import android.app.Dialog
 import android.content.Intent

@@ -1,6 +1,7 @@
-package com.example.corona_ujb.Model
+package com.example.corona_ujb.model
 
 import android.os.AsyncTask
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import com.example.corona_ujb.api.MaskAPI
 import com.example.corona_ujb.api.NaverAPI
@@ -112,7 +113,7 @@ class CoronaRepository() {
                     }
                 } else {
                     var titles: Elements = doc.select("tr.sorttop")
-                    System.out.println("title: " + titles.text().split(" "))
+//                    System.out.println("title: " + titles.text().split(" "))
                     templist.addAll(titles.text().split(" "))
                     for(i in 0..2)
                         templist[i+1] = templist[i+1] + " 명"

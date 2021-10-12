@@ -1,6 +1,6 @@
 package com.example.corona_ujb.api
 
-import com.example.corona_ujb.ResultGetMaskData
+import com.example.corona_ujb.model.ResultGetMaskData
 import io.reactivex.Observable
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
